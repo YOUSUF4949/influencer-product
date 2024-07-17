@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* added the popins fonts awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* main container starts here */
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+/* main container ends here */
+
+/* havbar section design starts here */
+nav .brand h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 34px;
+}
+
+nav ul li:first-child{
+    margin-left:0;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li a,
+nav ul li a i {
+    color: rgb(58, 58, 58);;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* havbar section design ends here */
